@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#contenedor {
+    width: 960px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:oldlace;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+/*para cargar estudiantes*/
+#formulario {
+    width: 420px;
+    height: 400px;
+    margin-left: 40px;
+    float: left;
+    border: 2px solid black;
+}
+#formulario h4 {
+    text-align: center;
+}
+#formu1 {
+    width: 350px;
+    margin-left: 50px;
+}
+#nom, #ape, #corre {
+    width: 300px;
+}
+#nom, #ape, #corre, #edd {
+    height: 20px;
+    margin-top: 20px;
+}
+#subm {
+    margin-left: 250px;
+    margin-top: 20px;
+}
+/*para mostrar estudiantes*/
+#mostrar {
+    width: 420px;
+    height: 400px;
+    margin-left: 40px;
+    float: left;
+}
+#busc {
+    width: 395px;
+    height: 50px;
+    margin: 10px;
+}
+#formu2 {
+    padding-top: 15px;
+}
+#buscanombre {
+    width: 250px;
+    margin-right: 40px;
+}
+#list {
+    margin: 10px;
+    padding-top: 5px;
+    width: 395px;
+    height: 200px;
+    border: 2px solid black;
+}
+#list h4 {
+    text-align: center;
+    margin: 0px;
+}
