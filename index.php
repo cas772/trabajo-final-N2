@@ -14,7 +14,7 @@
 <section>
     <div id="formulario">
         <h4>Agregar Nuevo Estudiante</h4>
-    <form action="" method="post" id="formu1">
+    <form action="cargaestudiante.php" method="post" id="formu1">
         <input type="text" name="nombre" id="nom" placeholder="Nombre" require>
         <input type="text" name="apellido" id="ape" placeholder="Apellido" require>
         <input type="number" name="edad" id="edd" placeholder="Edad" max="99" min="18" require>
@@ -31,7 +31,7 @@
         </div>
         <div id="list">
             <h4>Estudiantes Matriculados</h4>
-
+            <?php include("mostrarlista.php");?>
         </div>
     </div>
 </section>

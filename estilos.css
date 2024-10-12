@@ -17,7 +17,7 @@ h1 {
 /*para cargar estudiantes*/
 #formulario {
     width: 420px;
-    height: 400px;
+    height: 375px;
     margin-left: 40px;
     float: left;
     border: 2px solid black;
@@ -43,7 +43,7 @@ h1 {
 /*para mostrar estudiantes*/
 #mostrar {
     width: 420px;
-    height: 400px;
+    height: 380px;
     margin-left: 40px;
     float: left;
 }
@@ -63,10 +63,16 @@ h1 {
     margin: 10px;
     padding-top: 5px;
     width: 395px;
-    height: 200px;
+    height: 300px;
     border: 2px solid black;
 }
 #list h4 {
     text-align: center;
     margin: 0px;
+}
+
+#list table {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
