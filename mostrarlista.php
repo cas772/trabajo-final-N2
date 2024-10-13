@@ -15,7 +15,10 @@ if($list){
     echo"<td>".$row['apellido']."</td>";
     echo"<td>".$row['edad']."</td>";
     echo"<td>".$row['correo']."</td>";
-    echo'<td><a href="eliminarestud.php/?idstud='.$row['id_estudiante'].'"><img src="imagenes/dele.svg" alt="borrar"></a></td></tr>';
+    echo'<td><form action="eliminarestud.php" method="post">
+    <input type="hidden" name="idestud" value="'.$row['id_estudiante'].'">
+    <input type="submit" value="X">
+    </form></td></tr>';
     }
     mysqli_free_result($list);
 } else {
@@ -23,3 +26,8 @@ echo "<p>Error en la conexión a la Base de datos</p>";
 };
 ?>
 </table>
+<?php
+if(isset($_GET['ok'])){
+    echo "<h5>Un estudiante ha sido borrado</h5>";
+};
+?>

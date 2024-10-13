@@ -1,9 +1,7 @@
-<?php
-if(isset($_GET['idstud'])){ 
-    $ver = $_GET['idstud'];
+<?php 
+    $ver = $_POST['idestud'];
     include("recursos.php");
-    $eliminar = mysqli_query($conexion, "DELETE FROM estudiantes WHERE id_estudiante=$ver");    
-};
-    header("Location:index.php");
+    $eliminar = mysqli_query($conexion, "DELETE FROM estudiantes WHERE id_estudiante=$ver");
+    header("Location:index.php?ok", false);
     exit;
 ?>
