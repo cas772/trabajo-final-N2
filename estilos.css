@@ -42,9 +42,9 @@ h1 {
 }
 /*para mostrar estudiantes*/
 #mostrar {
-    width: 420px;
+    width: 450px;
     height: 380px;
-    margin-left: 40px;
+    margin-left: 10px;
     float: left;
 }
 #busc {
@@ -62,7 +62,7 @@ h1 {
 #list {
     margin: 10px;
     padding-top: 5px;
-    width: 395px;
+    width: 430px;
     height: 300px;
     border: 2px solid black;
 }
@@ -75,4 +75,8 @@ h1 {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+#list img {
+    width: 15px;
+    margin-left: 15px;
 }
