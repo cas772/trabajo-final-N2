@@ -83,3 +83,19 @@ h1 {
     width: 25px;
     margin-left: 15px;
 }
+#list a {
+    display: block;
+    background-color:rgb(177, 177, 177);
+    text-decoration: none;
+    padding: 2px;
+    width: 150px;
+    color: black;
+    border: solid 2px black;
+    margin-left: 255px;
+    margin-top: 20px;
+}
+#list a:hover {
+    background-color:rgb(232, 230, 230);
+    font-weight: bold;
+    width: 160px;   
+}

@@ -47,5 +47,9 @@ echo "<p>Error en la conexión a la Base de datos</p>";
 <?php
 if(isset($_GET['ok'])){
     echo "<h5>Un estudiante ha sido borrado</h5>";
+    echo '<a href="index.php">OK</a>';
+};
+if(isset($_POST['bnom'])) {
+    echo '<a href="index.php">Volver a lista completa</a>';
 };
 ?>

@@ -15,17 +15,17 @@
     <div id="formulario">
         <h4>Agregar Nuevo Estudiante</h4>
     <form action="cargaestudiante.php" method="post" id="formu1">
-        <input type="text" name="nombre" id="nom" placeholder="Nombre" require>
-        <input type="text" name="apellido" id="ape" placeholder="Apellido" require>
-        <input type="number" name="edad" id="edd" placeholder="Edad" max="99" min="18" require>
-        <input type="email" name="correo" id="corre" placeholder="Correo electrónico" require>
+        <input type="text" name="nombre" id="nom" placeholder="Nombre" required>
+        <input type="text" name="apellido" id="ape" placeholder="Apellido" required>
+        <input type="number" name="edad" id="edd" placeholder="Edad" max="99" min="18" required>
+        <input type="email" name="correo" id="corre" placeholder="Correo electrónico" required>
         <input type="submit" value="Cargar" id="subm">
     </form>
     </div>
     <div id="mostrar">
         <div id="busc">
             <form action="" method="post" id="formu2">
-            <input type="text" name="bnom" id="buscanombre" placeholder="Buscar estudiante por nombre" require>
+            <input type="text" name="bnom" id="buscanombre" placeholder="Buscar estudiante por nombre" required>
             <input type="submit" value="Buscar">
             </form>
         </div>
